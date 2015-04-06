@@ -1,0 +1,46 @@
+Mode                LastWriteTime     Length Name
+----                -------------     ------ ----
+d----          4/6/2015   6:53 PM            Hello
+
+
+PS C:\Users\Bradley Trowbridge> ls
+
+
+    Directory: C:\Users\Bradley Trowbridge
+
+
+Mode                LastWriteTime     Length Name
+----                -------------     ------ ----
+d----          9/7/2014   5:57 PM            .idlerc
+d----          2/4/2015   7:13 PM            .nbi
+d----          2/4/2015   7:10 PM            .netbeans-derby
+d----          4/5/2015  11:27 PM            .ssh
+d----         6/30/2013   1:28 AM            CBloader
+d-r--         5/19/2013   5:32 PM            Contacts
+d-r--          4/6/2015  12:45 PM            Desktop
+d-r--          4/6/2015  12:34 PM            Documents
+d-r--         12/9/2013  11:58 AM            Downloads
+d-r--          8/5/2013   1:02 AM            Favorites
+d----          4/6/2015   6:53 PM            Hello
+d-r--         3/17/2015   8:51 PM            Links
+d-r--         5/19/2013   5:32 PM            Music
+d-r--         10/7/2013   5:32 PM            Pictures
+d----         7/12/2012   3:24 AM            riotsGamesLogs
+d-r--         2/26/2015   3:46 AM            Saved Games
+d-r--         5/19/2013   5:32 PM            Searches
+d----          4/6/2015  12:49 PM            UnityProject
+d-r--         7/14/2013   1:00 AM            Videos
+d----          2/9/2015   5:36 AM            workspace
+-a---          4/6/2015   1:06 PM        160 .gitconfig
+-a---         9/10/2012   6:41 PM      60304 g2mdlhlpx.exe
+
+
+PS C:\Users\Bradley Trowbridge> cd Hello
+PS C:\Users\Bradley Trowbridge\Hello> cd..
+
+PS C:\Users\Bradley Trowbridge> cd .\Hello
+PS C:\Users\Bradley Trowbridge\Hello> git init
+Initialized empty Git repository in C:/Users/Bradley Trowbridge/Hello/.git/
+PS C:\Users\Bradley Trowbridge\Hello> git remote add origin https://github.com/btrowbridge/HelloWorld.
+PS C:\Users\Bradley Trowbridge\Hello>
+
